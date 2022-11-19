@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap 5 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- own css -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/responsive-style.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Обзор</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore">Направления продаж</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">ЧЗВ</a>
+                        </li>
+                        <!-- Large button groups (default and split) -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-btn1 mx-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              РУС
+                            </button>
+                            <ul class="dropdown-menu dropdown-btn2">
+                              <li><a style="border-bottom: 2px solid #999;" class="dropdown-item " href="#">UZB</a></li>
+                              <li><a class="dropdown-item" href="./eng.html">ENG</a></li>
+                            </ul>
+                          </div>
+                        <li><button class="header-btn">+998 90 539 49 89</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- section-1 top banner -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>
+                            ПЛАТФОРМА ДЛЯ ПРОДАЖИ ЦЫФРОВЫХ ПРОДУКТОВ.
+                        </h1>
+                        <p>
+                            Наша платформа обеспечивает продажу цифровых продуктов как готовые сайты, платформы,
+                            приложения, коды. То есть продукты для Sofware и Hardware.
+                        </p>
+                        <div class="my-4">
+                            <button class="main-btn">Заказать сейчас<i class="fas fa-shopping-basket ps-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-2 counter -->
+    <section id="about">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count1"></span>+
+                        </h2>
+                        <p>Сохранёные</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span>+
+                        </h2>
+                        <p>Фотография</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count3"></span>+
+                        </h2>
+                        <p>Собшения</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count4"></span>+
+                        </h2>
+                        <p>Поисков</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- section-3 about -->
+    <section id="about">
+        <div class="wrapper about-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2 style="color: #bdf347;" class="mt-5">О нас</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carusel-caption">
+                                        <img src="assets/img/about us/img1.jpg" alt="Elnur To'lqinov picture">
+                                        <p>
+                                            Готов учится, работать и улутшать свои навыки в сфере програмирования;
+                                        </p>
+                                        <h5>Элнур Тулкинов - "Front End Developer"</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carusel-caption">
+                                        <img src="assets/img/about us/img3.jpg" alt="Elbek Shermatov picture">
+                                        <p>
+                                            Готов работать, лидировать и улутшать свои навыки в сфере управления и
+                                            прогресироать свои лудшие стороны.
+                                        </p>
+                                        <h5>Элбек Шерматов - "Projec Manager"</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carusel-caption">
+                                        <img src="./assets/img/about us/img2.jpg" alt="Baxromov Shahobiddin picture">
+                                        <p>
+                                            Готов учится, работать и улутшать свои навыки в сфере програмирования;
+                                        </p>
+                                        <h5>Шахобиддин Бахромов - "Front End Developer"</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="testimonial-section wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="text-center pb-4">
+                        <h2 style="color: #bdf347;" class="mt-5">Обзор</h2>
+                    </div>
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5 mt-5">
+                        <div class="card border-0">
+                            <img src="assets/img/img/img-1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>
+                            Мы предлогаем самый эфективный способ продаж цыфровых изделий.
+                        </h2>
+                        <p>
+                            Создавайте сайты, пишите коды, програмируйте сколько влезет, в нашем сайте есть для всего
+                            место!
+                        </p>
+                        <button class="main-btn mt-4">Направления продаж</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container type">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>
+                            Мы создаём все со своими руками!
+                        </h2>
+                        <p>
+                            За регестрируйся, входи, напиши нам и мы тебе поможем со твоим проектом. У нас самые хорошие
+                            програмисты и пазработчики!
+                        </p>
+                        <ul class="list-unstyled py-3">
+                            <li>Software Engineers</li>
+                            <li>Full Stack Developers</li>
+                            <li>Project Managaers</li>
+                            <li>Team Leads</li>>
+                        </ul>
+                        <button class="main-btn mt-4">Learn More</button>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <img src="assets/img/img/img-2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-4 explore -->
+    <section id="explore">
+        <div class="explore wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center mt-5">
+                            <h2>Направления продаж</h2>
+                            <p>
+                                Каждая из сфер и направления имеет свои приемушество и достоинство для начинаюших програмистов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="assets/img/img/img-3.jpg" alt="" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Software aplications</h4>
+                                <p>...</p>
+                                <span></span>
+                                <button class="mt-4 main-btn">Заказовайте сейчас</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="assets/img/img/img-4.jpg" alt="" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Web aplications</h4>
+                                <p>...</p>
+                                <span></span>
+                                <button class="mt-4 main-btn">Заказовайте сейчас</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="assets/img/img/img-5.jpg" alt="" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Graphical designes</h4>
+                                <p>...</p>
+                                <span></span>
+                                <button class="mt-4 main-btn">Заказовайте сейчас</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-5 faq -->
+    <section id="faq">
+        <div class="faq wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2 class="mt-5">Часто задаваемые вопросы:</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <span>~</span>Можете ли вы перечислить и объяснить различные типы ошибок, которые могут возникнуть при выполнении компьютерной программы?
+                        </h4>
+                        <p>Во время выполнения компьютерной программы могут возникнуть три типа ошибок. К ним относятся: Логические ошибки. Это происходит в случае, когда компьютерная программа реализует неправильную логику.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <span>~</span>Объясните пожалуйста алгоритм. Каковы некоторые из его важных особенностей?
+                        </h4>
+                        <p>
+                            Алгоритм можно определить как набор конечных шагов, выполнение которых помогает выполнить конкретную задачу. Важными характеристиками алгоритма являются ясность, эффективность и конечность.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <span>~</span>Пожалуйста, дайте краткое пояснение по переменным.
+                        </h4>
+                        <p>
+                            Переменные используются для хранения ввода программы, а также результатов вычислений во время выполнения программы. На самом деле это именованные ячейки памяти. Значение, сохраненное в переменной, может измениться во время выполнения программы.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <span>~</span>Объясните, пожалуйста, операторов.
+                        </h4>
+                        <p>
+                            Операторы используются для выполнения определенных операций с данными в компьютерной программе. Они представлены символами. Например, / представляет математическое деление, а * представляет умножение. Существует 4 основных типа операторов:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-6 book -->
+    <section id="book">
+        <div class="book">
+            <div class="container book-text">
+                <div class="row text-center">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>
+                            Поступления с самыми горячими ценами.
+                        </h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="main-btn">УЗНАЙТЕ ПО БОЛЬШЕ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-7 newlettar -->
+    <section id="newslettar">
+        <div class="newslettar wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center pb-4">
+                            <h2 class="mt-5">
+                                Торопиться! Подпишитесь на нашу рассылку и получите скидку 25%
+                            </h2>
+                            <p>
+                                Предложение ограничено по времени в этом месяце. Кредитная карта не требуется.
+                            </p>
+                        </div>
+                        <div class="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input class="form-control" type="email" placeholder="Email Address here"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">Подписатя</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section- footer -->
+    <footer class="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="footer-link">Регистрация</a>
+                        <a href="#" class="footer-link">Формы</a>
+                        <a href="#" class="footer-link">Филиал</a>
+                        <a href="#" class="footer-link">ЧЗВ</a>
+                        <div class="footer-social pt-4 text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="footer-copy">
+                            <div class="copy-right text-center pt-5">
+                                <p class="text-light">C 2022. ESH. Все права защищены.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap 5 JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- own js -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
